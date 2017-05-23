@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task3.Models;
 
-namespace Task3.Interfaces
+namespace Task3.Models
 {
-    public interface INumber
+    public class TariffList
     {
-        int phoneNumber { get; set; }
+        List<Tariff> tariffList = new List<Tariff>();
+
+      
     }
 }

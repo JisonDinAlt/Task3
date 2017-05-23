@@ -47,6 +47,7 @@
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Number.cs" />
     <Compile Include="Models\Tariff.cs" />
+    <Compile Include="Models\TariffList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -9,6 +9,30 @@ namespace Task3.Models
 {
     class Number : INumber
     {
-        public int number { get;  set; }
+        public int phoneNumber { get;  set; }
+        public int iD { get; set; }
+        public bool wasTarrifChangedInCurrentMonth { get; set; }
+        public double currentAmount { get; set; }
+        public string tariffName { get; set; }
+
+
+        public Number (string _tariffName, int _phoneNumber)
+        {
+            _tariffName = tariffName;
+            _phoneNumber = phoneNumber;
+        }
+
+
+
+
+        public void ChangeTarrif()
+        {
+
+        }
+
+        public void DepositMoney (double depositeSumm)
+        {
+            currentAmount = +depositeSumm;
+        }
     }
 }
