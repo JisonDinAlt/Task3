@@ -34,5 +34,10 @@ namespace Task3.Models
         {
             currentAmount = +depositeSumm;
         }
+
+        public void CalculateLastCallAmount (double lastCallTime)
+        {
+
+        }
     }
 }
